@@ -1,0 +1,130 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container{
+  width: 1000px;
+  height: auto;
+  background-color: #ffff;
+  box-shadow: 0px 3px 8px rgba(0,0,0,0.8);
+  margin:10px auto;
+  border: 1px solid black;
+  padding: 20px;
+}
+.portfolio-header{
+ display: flex;
+ justify-content: space-between;
+ border-bottom: 4px solid black;
+ padding-bottom: 15px;
+}
+.name h1{
+ margin-bottom: 5px;
+  font-size: 2.3rem;
+}
+.name h1::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 0%;
+  background-color: #333;
+  transition: all ease 1s;
+}
+.name h1:hover::after{
+  width: 100%;
+}
+.name h4{
+  margin-bottom: 5px;
+  font-size: 1.1rem;
+}
+.name a{
+  font-size: 1.2rem;
+}
+.contact-img img{
+  width: 100px;
+  border-radius: 8px;
+}
+
+.summary{
+  margin-top: 20px;
+  font-size: 1.2rem;
+  text-justify: auto;
+  border-bottom: 4px solid black;
+  padding-bottom: 15px;
+}
+.education{
+  margin-top: 40px;
+  border-bottom: 4px solid black;
+  padding-bottom: 8px;
+}
+
+.education-detail{
+  margin-top: 20px;
+  font-size: 20px;
+}
+.education-detail p{
+  text-transform: capitalize;
+}
+.university{
+  margin-top: 6px;
+  margin-left: 13.8%;
+
+}
+.percentage{
+  margin-top: 6px;
+  margin-left: 13.8%;
+}
+.tech-skill{
+  margin-top: 40px;
+  border-bottom: 4px solid black;
+  padding-bottom: 8px;
+}
+.skill{
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+.skill p{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.skill p span{
+  margin-right: 10px;
+  text-transform: capitalize;
+  color: #0257f4;
+  font-weight: 400;
+}
+.about-project{
+  margin-top: 10px;
+}
+.proj-1 .proj-title{
+  padding-bottom: 5px;
+  font-size: 24px;
+  font-weight: 900;
+  background-color: rgb(19, 55, 76);
+  color: #fff;
+  
+}
+.proj-link{
+  display: block;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: blue;
+}
+.proj-detail{
+  font-size: 1.2rem;
+}
+
+.hobbies{
+  margin-top: 20px;
+  display: flex; gap: 20px;
+}
+.hobbies h4{
+  font-size: 24px;
+  text-transform: capitalize;
+}
